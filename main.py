@@ -1,0 +1,3 @@
+from utils.db_utils import list_collections, delete_collection, delete_all_collections
+
+delete_collection('TeoryElConection_chtype_token_chsize_300_overlap_30_outtype_markdown')

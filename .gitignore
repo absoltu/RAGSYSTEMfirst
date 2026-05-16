@@ -1,0 +1,57 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Data and artifacts
+chroma_db/
+*.sqlite3
+temp_pdf_parts/
+
+# Document source files (if these are just source data)
+documents/
+
+# Model weights and caches
+*.bin
+*.pt
+
+# Secrets
+secrets.json
+credentials.json
+
+# Tests cache
+tests/__pycache__/
